@@ -1,11 +1,17 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
 
 import { environment } from '@env/environment';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+
+    // ngrx
+    StoreModule.forRoot({}),
+    EffectsModule.forRoot([])
   ],
   declarations: []
 })
