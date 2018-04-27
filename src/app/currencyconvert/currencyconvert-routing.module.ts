@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CurrencyconvertModule } from '@app/currencyconvert/currencyconvert.module';
 import { CurrencyconvertComponent } from '@app/currencyconvert/currencyconvert/currencyconvert.component';
 import { CurrencyComponent } from '@app/currencyconvert/currency/currency.component';
 
